@@ -10,7 +10,7 @@ export async function POST(request: Request) {
       from: 'AI Consulting <onboarding@resend.dev>',
       to: ['bam.pizza@hey.com'],
       subject: 'New Contact Form Submission - AI Consulting',
-      reply_to: from,
+      replyTo: from,
       text: `Name: ${name}\nEmail: ${from}\nMessage: ${message}`,
     });
 
