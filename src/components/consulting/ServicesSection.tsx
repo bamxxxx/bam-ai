@@ -26,9 +26,9 @@ export const ServicesSection = () => (
     {...fadeIn}
   >
     <h2 className="text-3xl font-bold mb-12 text-center text-consulting-text relative">
-      <span className="relative inline-block">
+      <span className="relative inline-block group">
         Service Offerings
-        <span className="absolute -bottom-2 left-0 right-0 h-1 bg-consulting-accent/30 rounded-full transform scale-x-75"></span>
+        <span className="absolute -bottom-2 left-0 right-0 h-1 bg-consulting-accent/30 rounded-full transform scale-x-75 transition-transform group-hover:scale-x-100"></span>
       </span>
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
