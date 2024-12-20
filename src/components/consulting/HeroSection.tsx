@@ -54,8 +54,7 @@ export const HeroSection = () => (
             If you're interested in using AI to enhance your business, let's talk!
           </p>
           <div className="text-3xl mt-4">
-            Best regards,<br />
-            <span className="text-4xl mt-2 block">Michael Bamberger</span>
+            -Bam
           </div>
         </div>
       </div>
