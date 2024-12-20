@@ -14,34 +14,74 @@ export const ClientsSection = () => (
     <h2 className="text-2xl font-bold mb-8 text-consulting-text">Trusted By Industry Leaders</h2>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-items-center">
       <img
-        src="/lovable-uploads/d124a4cd-8ea5-442e-b853-9a347c175fb4.png"
-        alt="Google"
+        src="/lovable-uploads/bb33df10-5ccf-4ee2-bb56-c56a100ff1fc.png"
+        alt="Microsoft"
         className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
       <img
-        src="/lovable-uploads/49dbcb9c-93ec-4a28-ab7c-086ac195f87d.png"
-        alt="LexisNexis"
-        className="h-8 md:h-12 object-contain grayscale hover:grayscale-0 transition-all"
-      />
-      <img
-        src="/lovable-uploads/4fce34fd-e378-4d7a-9d41-fea088a42854.png"
-        alt="Salesforce"
-        className="h-8 md:h-12 object-contain grayscale hover:grayscale-0 transition-all"
-      />
-      <img
-        src="/lovable-uploads/6d9d9915-5ecf-41a2-86b6-9446c021fded.png"
-        alt="Toyota"
+        src="/lovable-uploads/371ed1ea-1523-42b7-82e3-398edce53dff.png"
+        alt="Tenable"
         className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
       <img
-        src="/lovable-uploads/4efaf28b-83d0-4841-90ce-0d8a584a3868.png"
-        alt="DirectTV"
-        className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all"
+        src="/lovable-uploads/cb5a2989-6efb-4d2f-9db5-26a1e6763ad1.png"
+        alt="PingIdentity"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
       <img
-        src="/lovable-uploads/d7949964-afe3-4b8a-a072-b4aa69297315.png"
-        alt="Trellix"
-        className="h-6 md:h-8 object-contain grayscale hover:grayscale-0 transition-all"
+        src="/lovable-uploads/bfaf641c-e404-450f-8e54-171c72ebb3c5.png"
+        alt="Blizzard"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/a10b3971-aa89-48c7-b413-852b992ddeb9.png"
+        alt="PWC"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/73c31c10-3c80-414c-af34-fba26834ceac.png"
+        alt="Vanguard"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/0bdf33a8-1e99-4cc9-8e7d-8e8c179892b0.png"
+        alt="Dartmouth"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/a151a038-74ee-4a1a-8b38-2ab2fa1da2b0.png"
+        alt="Saatchi"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/ab9e8c3c-d4b7-42aa-829f-42a408562af0.png"
+        alt="UnionBank"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/93eeccad-d9dd-4537-a900-6077d532a5f5.png"
+        alt="MuleSoft"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/e195ff73-122c-4b49-beb4-8307ab499cef.png"
+        alt="FireEye"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/1dfb13f8-c514-44f2-804e-bcad17d628b5.png"
+        alt="Bloomin Brands"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/1b7769d3-3d51-4041-bdce-b3e518a2a77f.png"
+        alt="Pfizer"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
+      />
+      <img
+        src="/lovable-uploads/af567956-ca16-4f4f-820e-e2b7cd060f62.png"
+        alt="AARP"
+        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
     </div>
   </motion.section>
