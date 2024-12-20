@@ -27,12 +27,18 @@ export const IntroSection = () => (
           </span>
           . His focus is on implementing AI in 
           measurably impactful ways, ensuring an increase in{' '}
-          <span className="font-bold bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text">
-            revenue 💸
+          <span className="inline-flex items-center">
+            <span className="font-bold bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text">
+              revenue
+            </span>
+            <span className="ml-1">💸</span>
           </span>
           ,{' '}
-          <span className="font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
-            reduction in costs 📊
+          <span className="inline-flex items-center">
+            <span className="font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
+              reduction in costs
+            </span>
+            <span className="ml-1">📊</span>
           </span>
           , and often both.
         </p>
