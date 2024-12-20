@@ -26,8 +26,15 @@ export const IntroSection = () => (
             practical application with clear, tangible ROI
           </span>
           . His focus is on implementing AI in 
-          measurably impactful ways, ensuring an increase in revenue, reduction in 
-          costs, and often both.
+          measurably impactful ways, ensuring an increase in{' '}
+          <span className="font-bold bg-gradient-to-r from-green-600 to-green-400 text-transparent bg-clip-text">
+            revenue 💰
+          </span>
+          ,{' '}
+          <span className="font-bold bg-gradient-to-r from-orange-600 to-orange-400 text-transparent bg-clip-text">
+            reduction in costs 📉
+          </span>
+          , and often both.
         </p>
         <p>
           Known for transforming complex challenges into strategic opportunities, 
