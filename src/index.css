@@ -37,6 +37,37 @@
     font-size: 11pt !important;
     line-height: 1.4 !important;
   }
+
+  /* Add page breaks before major sections */
+  section, .print-break {
+    break-before: page;
+  }
+
+  /* Ensure testimonials print properly */
+  .embla__viewport {
+    overflow: visible !important;
+  }
+
+  .embla__container {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1rem !important;
+    transform: none !important;
+  }
+
+  .embla__slide {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    flex: none !important;
+  }
+
+  /* Hide carousel navigation in print */
+  .embla__button {
+    display: none !important;
+  }
 }
 
 @layer base {
