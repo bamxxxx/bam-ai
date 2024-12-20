@@ -22,8 +22,7 @@ export const HeroSection = () => (
           </p>
           <p className="text-lg">
             Michael Bamberger (aka Bam) is the Founder and CEO of Tetra Insights, 
-            an AI-powered research platform trusted by enterprises, including Microsoft, 
-            LexisNexis, and Trellix.
+            an AI-powered research platform trusted by leading global enterprises.
           </p>
         </div>
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl print:shadow-none border-4 border-consulting-accent/20 flex-shrink-0">
