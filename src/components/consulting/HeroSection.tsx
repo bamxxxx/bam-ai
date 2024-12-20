@@ -14,7 +14,7 @@ export const HeroSection = () => (
     <div className="flex-1">
       <div className="flex flex-col md:flex-row md:items-start gap-8 mb-6">
         <div className="flex-1">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-consulting-text to-consulting-accent relative z-50">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-consulting-text to-consulting-accent relative z-50 pb-2">
             AI Strategy Consulting
           </h1>
           <p className="text-xl md:text-2xl text-consulting-muted mb-6">
