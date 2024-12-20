@@ -6,6 +6,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -25,25 +26,22 @@ export const ContactForm = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const response = await fetch("/api/send", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
+      const { data, error } = await supabase.functions.invoke('send', {
+        body: {
           from: values.email,
           name: values.name,
           message: values.message,
-        }),
+        },
       });
 
-      if (response.ok) {
-        toast.success("Message sent successfully!");
-        form.reset();
-      } else {
-        throw new Error("Failed to send message");
+      if (error) {
+        throw error;
       }
+
+      toast.success("Message sent successfully!");
+      form.reset();
     } catch (error) {
+      console.error('Error sending message:', error);
       toast.error("Failed to send message. Please try again later.");
     }
   };
