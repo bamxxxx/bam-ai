@@ -25,7 +25,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Moshe Shmuel",
     title: "Sr. Manager, Product Design, HBO Max at WarnerMedia",
-    image: "/lovable-uploads/aace7a62-da93-4a5a-b93c-e58bdae4f86e.png",
+    image: "/lovable-uploads/b56ac487-44a0-4f14-956e-be08d868ece0.png",
     text: "Michael is one of the most passionate and professional individuals I have had the privilege of working with. During my time at DirecTV, Michael and his team conducted and excelled in any research activity we gave them and provided the most reliable, in-depth, and impactful insights a product innovation group could ask for.",
   },
   {
