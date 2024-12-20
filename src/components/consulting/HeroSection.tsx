@@ -38,6 +38,9 @@ export const HeroSection = () => (
         <div className="absolute inset-0 bg-white/90 rounded-lg shadow-md transform rotate-[0.5deg] translate-y-0.5 md:rotate-[0.5deg]"></div>
         <div className="prose max-w-none bg-white p-4 md:p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Caveat'] text-lg md:text-[1.75rem] leading-relaxed">
           <p className="mb-4">
+            Hey there - Thanks for visiting!
+          </p>
+          <p className="mb-4">
             Throughout my journey of building AI products and embedding AI into customer-facing workflows, 
             I've gained <span className="bg-gradient-to-r from-yellow-200/70 to-yellow-300/70 inline-block px-1">deep insights into what truly works in AI implementation.</span> My experience spans from 
             developing AI-powered products to helping organizations transform their operations with AI solutions.
