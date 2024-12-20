@@ -18,10 +18,10 @@ export const ContactSection = () => (
         <p className="text-consulting-text">
           <span className="font-semibold">Email:</span>{" "}
           <a 
-            href="mailto:michael@bamberger.ai" 
+            href="mailto:bam.pizza@hey.com" 
             className="text-consulting-accent hover:underline"
           >
-            michael@bamberger.ai
+            bam.pizza@hey.com
           </a>
         </p>
         <p className="text-consulting-text">
