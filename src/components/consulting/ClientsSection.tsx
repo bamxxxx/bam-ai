@@ -44,11 +44,6 @@ export const ClientsSection = () => (
         className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
       <img
-        src="/lovable-uploads/0bdf33a8-1e99-4cc9-8e7d-8e8c179892b0.png"
-        alt="Dartmouth"
-        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
-      />
-      <img
         src="/lovable-uploads/a151a038-74ee-4a1a-8b38-2ab2fa1da2b0.png"
         alt="Saatchi"
         className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
@@ -76,11 +71,6 @@ export const ClientsSection = () => (
       <img
         src="/lovable-uploads/1b7769d3-3d51-4041-bdce-b3e518a2a77f.png"
         alt="Pfizer"
-        className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
-      />
-      <img
-        src="/lovable-uploads/af567956-ca16-4f4f-820e-e2b7cd060f62.png"
-        alt="AARP"
         className="h-8 md:h-10 object-contain grayscale hover:grayscale-0 transition-all"
       />
     </div>
