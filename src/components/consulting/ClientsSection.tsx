@@ -11,7 +11,12 @@ export const ClientsSection = () => (
     className="mb-16 print:mb-8 bg-white p-8 rounded-2xl shadow-lg border border-gray-100"
     {...fadeIn}
   >
-    <h2 className="text-2xl font-bold mb-8 text-consulting-text">Trusted By Industry Leaders</h2>
+    <h2 className="text-3xl font-bold mb-12 text-center text-consulting-text relative">
+      <span className="relative inline-block">
+        Trusted By Industry Leaders
+        <span className="absolute -bottom-2 left-0 right-0 h-1 bg-consulting-accent/30 rounded-full transform scale-x-75"></span>
+      </span>
+    </h2>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-items-center">
       <img
         src="/lovable-uploads/bb33df10-5ccf-4ee2-bb56-c56a100ff1fc.png"

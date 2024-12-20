@@ -68,8 +68,11 @@ export const TestimonialsCarousel = () => {
       transition={{ duration: 0.6 }}
       className="mb-16 print:mb-8"
     >
-      <h2 className="text-2xl font-bold mb-8 text-center text-consulting-text">
-        What People Say
+      <h2 className="text-3xl font-bold mb-12 text-center text-consulting-text relative">
+        <span className="relative inline-block">
+          What People Say
+          <span className="absolute -bottom-2 left-0 right-0 h-1 bg-consulting-accent/30 rounded-full transform scale-x-75"></span>
+        </span>
       </h2>
       <Carousel
         opts={{

@@ -25,7 +25,12 @@ export const ServicesSection = () => (
     className="mb-16 print:mb-8"
     {...fadeIn}
   >
-    <h2 className="text-2xl font-bold mb-6 text-consulting-text">Service Offerings</h2>
+    <h2 className="text-3xl font-bold mb-12 text-center text-consulting-text relative">
+      <span className="relative inline-block">
+        Service Offerings
+        <span className="absolute -bottom-2 left-0 right-0 h-1 bg-consulting-accent/30 rounded-full transform scale-x-75"></span>
+      </span>
+    </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <ServiceCard
         title="AI Product Development"
