@@ -176,6 +176,64 @@ const Index = () => {
             <li>Focused on tangible business outcomes</li>
           </ul>
         </motion.section>
+
+        {/* Client Logos Section */}
+        <motion.section 
+          className="mb-16 print:mb-8"
+          {...fadeIn}
+        >
+          <h2 className="text-2xl font-bold mb-8">Trusted By Industry Leaders</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center">
+            <img
+              src="/lovable-uploads/microsoft-logo.png"
+              alt="Microsoft"
+              className="h-12 object-contain grayscale hover:grayscale-0 transition-all"
+            />
+            <img
+              src="/lovable-uploads/lexisnexis-logo.png"
+              alt="LexisNexis"
+              className="h-12 object-contain grayscale hover:grayscale-0 transition-all"
+            />
+            <img
+              src="/lovable-uploads/trellix-logo.png"
+              alt="Trellix"
+              className="h-12 object-contain grayscale hover:grayscale-0 transition-all"
+            />
+          </div>
+        </motion.section>
+
+        {/* Contact Information */}
+        <motion.section 
+          className="print:mb-0 text-center"
+          {...fadeIn}
+        >
+          <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+            <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
+            <p className="text-lg mb-4">Ready to transform your business with AI?</p>
+            <div className="space-y-2">
+              <p className="text-consulting-text">
+                <span className="font-semibold">Email:</span>{" "}
+                <a 
+                  href="mailto:michael@bamberger.ai" 
+                  className="text-consulting-accent hover:underline"
+                >
+                  michael@bamberger.ai
+                </a>
+              </p>
+              <p className="text-consulting-text">
+                <span className="font-semibold">LinkedIn:</span>{" "}
+                <a 
+                  href="https://linkedin.com/in/michaelbamberger" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-consulting-accent hover:underline"
+                >
+                  linkedin.com/in/michaelbamberger
+                </a>
+              </p>
+            </div>
+          </div>
+        </motion.section>
       </div>
     </div>
   );
