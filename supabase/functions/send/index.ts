@@ -31,8 +31,8 @@ const handler = async (req: Request): Promise<Response> => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "onboarding@resend.dev",
-        to: "m@tetra.team", // Using the verified email address
+        from: "contact@tetra.support",
+        to: "m@tetra.team",
         reply_to: from,
         subject: `New Contact Form Submission from ${name}`,
         html: `
@@ -60,7 +60,7 @@ const handler = async (req: Request): Promise<Response> => {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
-  } catch (error) {
+  } catch (error: any) {
     console.error("Error in send function:", error);
     return new Response(JSON.stringify({ error: error.message }), {
       status: 500,
