@@ -22,6 +22,7 @@ const handler = async (req: Request): Promise<Response> => {
 
   try {
     const { from, name, message }: EmailRequest = await req.json();
+    console.log("Received request:", { from, name, message });
 
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -31,7 +32,8 @@ const handler = async (req: Request): Promise<Response> => {
       },
       body: JSON.stringify({
         from: "onboarding@resend.dev",
-        to: ["bam.pizza@hey.com"],
+        to: "m@tetra.team", // Using the verified email address
+        reply_to: from,
         subject: `New Contact Form Submission from ${name}`,
         html: `
           <h2>New Contact Form Submission</h2>
@@ -43,16 +45,17 @@ const handler = async (req: Request): Promise<Response> => {
       }),
     });
 
+    const responseData = await res.json();
+    console.log("Resend API response:", responseData);
+
     if (res.ok) {
-      const data = await res.json();
-      return new Response(JSON.stringify(data), {
+      return new Response(JSON.stringify(responseData), {
         status: 200,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     } else {
-      const error = await res.text();
-      console.error("Resend API error:", error);
-      return new Response(JSON.stringify({ error }), {
+      console.error("Resend API error:", responseData);
+      return new Response(JSON.stringify({ error: responseData }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
