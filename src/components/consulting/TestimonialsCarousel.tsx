@@ -37,7 +37,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Nis Frome",
     title: "CRO at Coderbyte // GTM Advisor",
-    image: "/lovable-uploads/2f76f7fc-725e-4162-8569-0ccad3d06ede.png",
+    image: "/lovable-uploads/408409c6-0b01-44a6-abfe-d52732ab8338.png",
     text: "Michael is a passionate leader who delivers on promises and inspires hustle, focus, and transparency, enabling everyone around him to grow stronger every day. He's smart and customer-driven, and has a knack for predicting market trends years before they take place.",
   },
   {
