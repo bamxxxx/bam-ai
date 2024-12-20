@@ -15,12 +15,17 @@ export const IntroSection = () => (
       <div className="flex-1">
         <p>
           Having been on the front-lines of building AI products and embedding AI into 
-          all customer facing workflows, Michael has developed deep expertise in how to 
-          strategize, implement, and iterate AI solutions.
+          all customer facing workflows, Michael has developed{' '}
+          <span className="font-bold bg-gradient-to-r from-purple-600 via-black to-blue-600 text-transparent bg-clip-text">
+            deep expertise in how to strategize, implement, and iterate AI solutions.
+          </span>
         </p>
         <p>
-          Michael has developed a reputation as an expert that focuses on practical 
-          application with clear, tangible ROI. His focus is on implementing AI in 
+          Michael has developed a reputation as an expert that focuses on{' '}
+          <span className="font-bold bg-gradient-to-r from-yellow-200 via-yellow-100 to-yellow-200 px-1">
+            practical application with clear, tangible ROI
+          </span>
+          . His focus is on implementing AI in 
           measurably impactful ways, ensuring an increase in revenue, reduction in 
           costs, and often both.
         </p>
