@@ -50,15 +50,15 @@ export const ContactForm = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 print:hidden max-w-md mx-auto">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 print:hidden w-full max-w-md mx-auto">
         <FormField
           control={form.control}
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel className="text-consulting-text">Name</FormLabel>
               <FormControl>
-                <Input placeholder="Your name" {...field} className="max-w-sm" />
+                <Input placeholder="Your name" {...field} className="w-full" />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -69,9 +69,9 @@ export const ContactForm = () => {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel className="text-consulting-text">Email</FormLabel>
               <FormControl>
-                <Input type="email" placeholder="your.email@example.com" {...field} className="max-w-sm" />
+                <Input type="email" placeholder="your.email@example.com" {...field} className="w-full" />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -82,15 +82,20 @@ export const ContactForm = () => {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel className="text-consulting-text">Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Your message" className="min-h-[120px] max-w-sm" {...field} />
+                <Textarea placeholder="Your message" className="min-h-[120px] w-full" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full max-w-sm">Send Message</Button>
+        <Button 
+          type="submit" 
+          className="w-full bg-consulting-accent hover:bg-consulting-accent/90 text-white"
+        >
+          Send Message
+        </Button>
       </form>
     </Form>
   );
