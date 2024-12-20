@@ -25,19 +25,19 @@ const testimonials: Testimonial[] = [
   {
     name: "Moshe Shmuel",
     title: "Sr. Manager, Product Design, HBO Max at WarnerMedia",
-    image: "/lovable-uploads/aace7a62-da93-4a5a-b93c-e58bdae4f86e.png",
+    image: "/lovable-uploads/64867c8e-4e1e-4888-9379-948d7ec51e91.png",
     text: "Michael is one of the most passionate and professional individuals I have had the privilege of working with. During my time at DirecTV, Michael and his team conducted and excelled in any research activity we gave them and provided the most reliable, in-depth, and impactful insights a product innovation group could ask for.",
   },
   {
     name: "Rishi Sethi",
     title: "CEO at Method Mill",
-    image: "/lovable-uploads/64867c8e-4e1e-4888-9379-948d7ec51e91.png",
+    image: "/lovable-uploads/aace7a62-da93-4a5a-b93c-e58bdae4f86e.png",
     text: "Michael has a unique combination of being able to switch between product, marketing and sales. He's been one of the best mentors I've ever had and has changed the way I look at business. His user-centric approach makes him one of the most effective CEOs that I can vouch for.",
   },
   {
     name: "Nis Frome",
     title: "CRO at Coderbyte // GTM Advisor",
-    image: "/lovable-uploads/2f76f7fc-725e-4162-8569-0ccad3d06ede.png",
+    image: "/lovable-uploads/1f517ed3-2754-4d45-bde2-b923b722d411.png",
     text: "Michael is a passionate leader who delivers on promises and inspires hustle, focus, and transparency, enabling everyone around him to grow stronger every day. He's smart and customer-driven, and has a knack for predicting market trends years before they take place.",
   },
   {
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Drew Kevorkian",
     title: "President at ARES Scientific, CEO at ARES Distribution",
-    image: "/lovable-uploads/1f517ed3-2754-4d45-bde2-b923b722d411.png",
+    image: "/lovable-uploads/2f76f7fc-725e-4162-8569-0ccad3d06ede.png",
     text: "Michael is true professional. He is extremely knowledgeable, a great communicator, responsive and fair in his dealings. Working with Michael has helped elevate my businesses to a new level in the digital world.",
   },
   {
