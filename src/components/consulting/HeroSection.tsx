@@ -19,10 +19,29 @@ export const HeroSection = () => (
         Your Personal AI Expert for Immediate, Measurable Impact
       </p>
       <div className="prose max-w-none">
-        <p className="text-lg">
+        <p className="text-lg mb-4">
           Michael Bamberger (aka Bam) is the Founder and CEO of Tetra Insights, 
           an AI-powered research platform trusted by enterprises, including Microsoft, 
           LexisNexis, and Trellix.
+        </p>
+        <p className="text-lg mb-4">
+          Having been on the front-lines of building AI products and embedding AI into 
+          all customer facing workflows, Michael has developed deep expertise in how to 
+          strategize, implement, and iterate AI solutions.
+        </p>
+        <p className="text-lg mb-4">
+          Michael has developed a reputation as an expert that focuses on practical 
+          application with clear, tangible ROI. His focus is on implementing AI in 
+          measurably impactful ways, ensuring an increase in revenue, reduction in 
+          costs, and often both.
+        </p>
+        <p className="text-lg">
+          Known for transforming complex challenges into strategic opportunities, 
+          Michael specializes in integrating AI technologies to optimize customer 
+          experiences and enhance business performance. By working as a consultant 
+          with clients across industries, Michael is able to continually expand and 
+          hone his expertise, enabling him to provide deep value and impact for 
+          every client.
         </p>
       </div>
     </div>
