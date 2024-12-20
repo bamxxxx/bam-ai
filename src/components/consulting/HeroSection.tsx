@@ -34,19 +34,26 @@ export const HeroSection = () => (
           />
         </div>
       </div>
-      <div className="prose max-w-none">
-        <p className="text-lg">
-          Having been on the front-lines of building AI products and embedding AI into all customer facing workflows, 
-          Michael has developed deep expertise in how to strategize, implement, and iterate AI solutions.
+      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Caveat',cursive] text-xl leading-relaxed">
+        <p className="mb-4">
+          Dear Future Partner,
         </p>
-        <p className="text-lg">
-          His experience spans from building AI-powered products to implementing AI solutions across organizations, 
-          giving him a unique perspective on what works and what doesn't.
+        <p className="mb-4">
+          Throughout my journey of building AI products and embedding AI into customer-facing workflows, 
+          I've gained deep insights into what truly works in AI implementation. My experience spans from 
+          developing AI-powered products to helping organizations transform their operations with AI solutions.
         </p>
-        <p className="text-lg">
-          Michael's hands-on approach ensures that organizations not only understand AI's potential 
-          but also successfully implement it in ways that drive real business value.
+        <p className="mb-4">
+          What I've learned is that success in AI isn't just about the technology—it's about understanding 
+          your unique business needs and implementing solutions that create real, measurable value.
         </p>
+        <p className="mb-6">
+          If you're interested in using AI to enhance your business, let's talk!
+        </p>
+        <div className="text-2xl mt-4">
+          Best regards,<br />
+          <span className="text-3xl mt-2 block">Michael Bamberger</span>
+        </div>
       </div>
     </div>
   </motion.div>
