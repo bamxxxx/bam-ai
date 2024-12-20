@@ -44,30 +44,62 @@ const Index = () => {
           </div>
         </motion.div>
 
-        {/* Experience Section */}
+        {/* Introduction Section */}
+        <motion.section 
+          className="mb-16 print:mb-8 prose max-w-none"
+          {...fadeIn}
+        >
+          <p>
+            Having been on the front-lines of building AI products and embedding AI into 
+            all customer facing workflows, Michael has developed deep expertise in how to 
+            strategize, implement, and iterate AI solutions.
+          </p>
+          <p>
+            Michael has developed a reputation as an expert that focuses on practical 
+            application with clear, tangible ROI. His focus is on implementing AI in 
+            measurably impactful ways, ensuring an increase in revenue, reduction in 
+            costs, and often both.
+          </p>
+          <p>
+            Known for transforming complex challenges into strategic opportunities, 
+            Michael specializes in integrating AI technologies to optimize customer 
+            experiences and enhance business performance. By working as a consultant 
+            with clients across industries, Michael is able to continually expand and 
+            hone his expertise, enabling him to provide deep value and impact for 
+            every client.
+          </p>
+        </motion.section>
+
+        {/* Who I Am Section */}
         <motion.section 
           className="mb-16 print:mb-8"
           {...fadeIn}
         >
           <h2 className="text-2xl font-bold mb-6">Who I Am</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="prose max-w-none">
-              <ul className="space-y-2">
-                <li>Founded 3 successful tech companies</li>
-                <li>Raised over $35M in venture funding</li>
-                <li>Generated $100M+ in cumulative revenue</li>
-                <li>Expert in digital strategy, research, and product development</li>
-                <li>Dartmouth College Alumnus (AB Economics)</li>
-              </ul>
-            </div>
-            <div className="prose max-w-none">
-              <p>
-                Having been on the front-lines of building AI products and embedding AI into 
-                all customer facing workflows, Michael has developed deep expertise in how to 
-                strategize, implement, and iterate AI solutions.
-              </p>
-            </div>
-          </div>
+          <p className="mb-4">A seasoned tech entrepreneur with a proven track record:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Founded 3 successful tech companies</li>
+            <li>Raised over $35M in venture funding</li>
+            <li>Generated $100M+ in cumulative revenue</li>
+            <li>Expert in digital strategy, research, and product development</li>
+            <li>Dartmouth College Alumnus (AB Economics)</li>
+          </ul>
+        </motion.section>
+
+        {/* Value Proposition Section */}
+        <motion.section 
+          className="mb-16 print:mb-8"
+          {...fadeIn}
+        >
+          <h2 className="text-2xl font-bold mb-6">Unique Value Proposition</h2>
+          <p className="mb-4">Specialized in AI-powered transformation of customer-facing business functions:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Product Development</li>
+            <li>Go-to-Market Strategy</li>
+            <li>Sales Automation</li>
+            <li>Marketing Optimization</li>
+            <li>Customer Success Enhancement</li>
+          </ul>
         </motion.section>
 
         {/* Services Section */}
@@ -79,37 +111,38 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xl font-semibold mb-4">AI Product Development</h3>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-2 list-disc pl-6">
                 <li>Rapid AI feature design and prototyping</li>
                 <li>Building intelligent product capabilities</li>
-                <li>Leveraging cutting-edge AI tools</li>
-                <li>Research and iteration for product-market fit</li>
+                <li>Leveraging cutting-edge AI tools for accelerated development</li>
+                <li>Research and iteration to get clear product-market fit</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xl font-semibold mb-4">Go-to-Market AI Optimization</h3>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-2 list-disc pl-6">
                 <li>Automated lead enrichment</li>
                 <li>Personalized sales follow-up automation</li>
-                <li>Cost reduction through process automation</li>
-                <li>Enhanced marketing and sales performance</li>
+                <li>Cost reduction through intelligent process automation</li>
+                <li>Enhanced marketing and sales funnel performance</li>
+                <li>Tool and platform implementation</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xl font-semibold mb-4">Customer Success Automation</h3>
-              <ul className="space-y-2 text-sm">
-                <li>Proactive user engagement</li>
-                <li>Automated onboarding workflows</li>
-                <li>AI-powered health scoring</li>
-                <li>Knowledge base optimization</li>
+              <ul className="space-y-2 list-disc pl-6">
+                <li>Proactive user engagement based on behavior patterns</li>
+                <li>Automated onboarding and training workflows</li>
+                <li>AI-powered customer health scoring and churn prediction</li>
+                <li>Knowledge base optimization and self-service automation</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <h3 className="text-xl font-semibold mb-4">AI Team Training</h3>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-2 list-disc pl-6">
                 <li>Customized AI training for teams</li>
-                <li>Implementation of tools</li>
-                <li>Rating and measurement of AI skills</li>
+                <li>Combined with implementation of tools</li>
+                <li>Rating and measurement of team's AI skills</li>
                 <li>Hands-on expert mentorship</li>
               </ul>
             </div>
@@ -118,26 +151,30 @@ const Index = () => {
 
         {/* Approach Section */}
         <motion.section 
-          className="print:mb-0"
+          className="mb-16 print:mb-8"
           {...fadeIn}
         >
           <h2 className="text-2xl font-bold mb-6">Approach</h2>
-          <div className="prose max-w-none">
-            <p>
-              Michael has developed a reputation as an expert that focuses on practical 
-              application with clear, tangible ROI. His focus is on implementing AI in 
-              measurably impactful ways, ensuring an increase in revenue, reduction in 
-              costs, and often both.
-            </p>
-            <p>
-              Known for transforming complex challenges into strategic opportunities, 
-              Michael specializes in integrating AI technologies to optimize customer 
-              experiences and enhance business performance. By working as a consultant 
-              with clients across industries, Michael is able to continually expand and 
-              hone his expertise, enabling him to provide deep value and impact for 
-              every client.
-            </p>
-          </div>
+          <h3 className="text-xl font-semibold mb-4">Strategic + Implementation</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Comprehensive AI strategy development</li>
+            <li>Hands-on implementation support</li>
+            <li>Focus on delivering measurable business value</li>
+          </ul>
+        </motion.section>
+
+        {/* Why Work With Me Section */}
+        <motion.section 
+          className="print:mb-0"
+          {...fadeIn}
+        >
+          <h2 className="text-2xl font-bold mb-6">Why Work With Me</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Entrepreneurial experience building AI-powered solutions</li>
+            <li>Deep understanding of technology and business strategy</li>
+            <li>Proven track record of successful AI integration</li>
+            <li>Focused on tangible business outcomes</li>
+          </ul>
         </motion.section>
       </div>
     </div>
