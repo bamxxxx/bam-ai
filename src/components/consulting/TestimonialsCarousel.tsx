@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
   {
     name: "Drew Kevorkian",
     title: "President at ARES Scientific, CEO at ARES Distribution",
-    image: "/lovable-uploads/1f517ed3-2754-4d45-bde2-b923b722d411.png",
+    image: "/lovable-uploads/ff3079f6-7941-4b60-9148-72b4ca80664d.png",
     text: "Michael is true professional. He is extremely knowledgeable, a great communicator, responsive and fair in his dealings. Working with Michael has helped elevate my businesses to a new level in the digital world.",
   },
   {
