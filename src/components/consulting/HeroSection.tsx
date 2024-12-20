@@ -17,8 +17,13 @@ export const HeroSection = () => (
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-consulting-text to-consulting-accent">
             AI Strategy Consulting
           </h1>
-          <p className="text-xl md:text-2xl text-consulting-muted">
+          <p className="text-xl md:text-2xl text-consulting-muted mb-6">
             Your Personal AI Expert for Immediate, Measurable Impact
+          </p>
+          <p className="text-lg">
+            Michael Bamberger (aka Bam) is the Founder and CEO of Tetra Insights, 
+            an AI-powered research platform trusted by enterprises, including Microsoft, 
+            LexisNexis, and Trellix.
           </p>
         </div>
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl print:shadow-none border-4 border-consulting-accent/20 flex-shrink-0">
@@ -30,11 +35,6 @@ export const HeroSection = () => (
         </div>
       </div>
       <div className="prose max-w-none">
-        <p className="text-lg">
-          Michael Bamberger (aka Bam) is the Founder and CEO of Tetra Insights, 
-          an AI-powered research platform trusted by enterprises, including Microsoft, 
-          LexisNexis, and Trellix.
-        </p>
         <p className="text-lg">
           Having been on the front-lines of building AI products and embedding AI into all customer facing workflows, 
           Michael has developed deep expertise in how to strategize, implement, and iterate AI solutions.
