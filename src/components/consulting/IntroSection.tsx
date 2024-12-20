@@ -14,22 +14,23 @@ export const IntroSection = () => (
     <div className="flex flex-col md:flex-row gap-8 items-center">
       <div className="flex-1">
         <p>
-          Having been on the front-lines of building AI products and embedding AI into 
-          all customer facing workflows, Michael has developed deep expertise in how to 
+          Having been on the <span className="font-semibold">front-lines of building AI products</span> and 
+          <span className="bg-purple-100 px-1 rounded"> embedding AI into all customer facing workflows</span>, 
+          Michael has developed <span className="text-consulting-accent font-semibold">deep expertise</span> in how to 
           strategize, implement, and iterate AI solutions.
         </p>
         <p>
-          Michael has developed a reputation as an expert that focuses on practical 
-          application with clear, tangible ROI. His focus is on implementing AI in 
-          measurably impactful ways, ensuring an increase in revenue, reduction in 
-          costs, and often both.
+          Michael has developed a reputation as an <span className="font-handwriting text-xl">expert that focuses on practical 
+          application</span> with clear, tangible ROI. His focus is on implementing AI in 
+          <span className="bg-purple-100 px-1 rounded"> measurably impactful ways</span>, ensuring an 
+          <span className="font-semibold"> increase in revenue, reduction in costs</span>, and often both.
         </p>
         <p>
-          Known for transforming complex challenges into strategic opportunities, 
+          Known for <span className="text-consulting-accent font-semibold">transforming complex challenges into strategic opportunities</span>, 
           Michael specializes in integrating AI technologies to optimize customer 
           experiences and enhance business performance. By working as a consultant 
-          with clients across industries, Michael is able to continually expand and 
-          hone his expertise, enabling him to provide deep value and impact for 
+          with clients across industries, Michael is able to <span className="font-handwriting text-xl">continually expand and 
+          hone his expertise</span>, enabling him to provide <span className="bg-purple-100 px-1 rounded">deep value and impact</span> for 
           every client.
         </p>
       </div>
