@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { ContactForm } from "./ContactForm";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -14,7 +15,7 @@ export const ContactSection = () => (
     <div className="bg-gradient-to-br from-consulting-bg via-purple-50 to-consulting-bg p-8 rounded-2xl shadow-lg border border-consulting-accent/20">
       <h2 className="text-2xl font-bold mb-4 text-consulting-text">Get in Touch</h2>
       <p className="text-lg mb-4">Ready to transform your business with AI?</p>
-      <div className="space-y-2">
+      <div className="space-y-2 mb-8">
         <p className="text-consulting-text">
           <span className="font-semibold">Email:</span>{" "}
           <a 
@@ -36,6 +37,7 @@ export const ContactSection = () => (
           </a>
         </p>
       </div>
+      <ContactForm />
     </div>
   </motion.section>
 );
