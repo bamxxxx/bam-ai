@@ -34,7 +34,7 @@ export const HeroSection = () => (
           />
         </div>
       </div>
-      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Caveat',cursive] text-xl leading-relaxed">
+      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Dancing_Script',cursive] text-2xl leading-relaxed">
         <p className="mb-4">
           Dear Future Partner,
         </p>
@@ -50,9 +50,9 @@ export const HeroSection = () => (
         <p className="mb-6">
           If you're interested in using AI to enhance your business, let's talk!
         </p>
-        <div className="text-2xl mt-4">
+        <div className="text-3xl mt-4">
           Best regards,<br />
-          <span className="text-3xl mt-2 block">Michael Bamberger</span>
+          <span className="text-4xl mt-2 block">Michael Bamberger</span>
         </div>
       </div>
     </div>
