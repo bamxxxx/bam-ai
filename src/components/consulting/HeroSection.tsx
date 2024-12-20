@@ -37,7 +37,7 @@ export const HeroSection = () => (
       <div className="relative transform -rotate-1">
         <div className="absolute inset-0 bg-white/80 rounded-lg shadow-md transform rotate-1 translate-y-1"></div>
         <div className="absolute inset-0 bg-white/90 rounded-lg shadow-md transform rotate-[0.5deg] translate-y-0.5"></div>
-        <div className="prose max-w-none bg-white p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Caveat'] text-2xl leading-relaxed">
+        <div className="prose max-w-none bg-white p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Caveat'] text-[1.75rem] leading-relaxed">
           <p className="mb-4">
             Dear Future Partner,
           </p>
