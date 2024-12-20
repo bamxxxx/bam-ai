@@ -34,25 +34,29 @@ export const HeroSection = () => (
           />
         </div>
       </div>
-      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Permanent_Marker'] text-2xl leading-relaxed">
-        <p className="mb-4">
-          Dear Future Partner,
-        </p>
-        <p className="mb-4">
-          Throughout my journey of building AI products and embedding AI into customer-facing workflows, 
-          I've gained deep insights into what truly works in AI implementation. My experience spans from 
-          developing AI-powered products to helping organizations transform their operations with AI solutions.
-        </p>
-        <p className="mb-4">
-          What I've learned is that success in AI isn't just about the technology—it's about understanding 
-          your unique business needs and implementing solutions that create real, measurable value.
-        </p>
-        <p className="mb-6">
-          If you're interested in using AI to enhance your business, let's talk!
-        </p>
-        <div className="text-3xl mt-4">
-          Best regards,<br />
-          <span className="text-4xl mt-2 block">Michael Bamberger</span>
+      <div className="relative transform -rotate-1">
+        <div className="absolute inset-0 bg-white/80 rounded-lg shadow-md transform rotate-1 translate-y-1"></div>
+        <div className="absolute inset-0 bg-white/90 rounded-lg shadow-md transform rotate-[0.5deg] translate-y-0.5"></div>
+        <div className="prose max-w-none bg-white p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Permanent_Marker'] text-2xl leading-relaxed">
+          <p className="mb-4">
+            Dear Future Partner,
+          </p>
+          <p className="mb-4">
+            Throughout my journey of building AI products and embedding AI into customer-facing workflows, 
+            I've gained deep insights into what truly works in AI implementation. My experience spans from 
+            developing AI-powered products to helping organizations transform their operations with AI solutions.
+          </p>
+          <p className="mb-4">
+            What I've learned is that success in AI isn't just about the technology—it's about understanding 
+            your unique business needs and implementing solutions that create real, measurable value.
+          </p>
+          <p className="mb-6">
+            If you're interested in using AI to enhance your business, let's talk!
+          </p>
+          <div className="text-3xl mt-4">
+            Best regards,<br />
+            <span className="text-4xl mt-2 block">Michael Bamberger</span>
+          </div>
         </div>
       </div>
     </div>
