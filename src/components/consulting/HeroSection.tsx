@@ -34,7 +34,7 @@ export const HeroSection = () => (
           />
         </div>
       </div>
-      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Dancing_Script',cursive] text-2xl leading-relaxed">
+      <div className="prose max-w-none bg-white/80 p-6 rounded-lg shadow-sm font-['Permanent_Marker'] text-2xl leading-relaxed">
         <p className="mb-4">
           Dear Future Partner,
         </p>
