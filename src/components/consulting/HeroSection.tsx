@@ -33,10 +33,10 @@ export const HeroSection = () => (
           />
         </div>
       </div>
-      <div className="relative transform -rotate-1">
-        <div className="absolute inset-0 bg-white/80 rounded-lg shadow-md transform rotate-1 translate-y-1"></div>
-        <div className="absolute inset-0 bg-white/90 rounded-lg shadow-md transform rotate-[0.5deg] translate-y-0.5"></div>
-        <div className="prose max-w-none bg-white p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Caveat'] text-[1.75rem] leading-relaxed">
+      <div className="relative transform -rotate-1 md:transform-none">
+        <div className="absolute inset-0 bg-white/80 rounded-lg shadow-md transform rotate-1 translate-y-1 md:rotate-1"></div>
+        <div className="absolute inset-0 bg-white/90 rounded-lg shadow-md transform rotate-[0.5deg] translate-y-0.5 md:rotate-[0.5deg]"></div>
+        <div className="prose max-w-none bg-white p-4 md:p-8 rounded-lg shadow-lg relative transform rotate-0 font-['Caveat'] text-lg md:text-[1.75rem] leading-relaxed">
           <p className="mb-4">
             Dear Future Partner,
           </p>
@@ -52,7 +52,7 @@ export const HeroSection = () => (
           <p className="mb-6">
             If you're interested in using AI to enhance your business, let's talk!
           </p>
-          <div className="text-3xl mt-4">
+          <div className="text-xl md:text-3xl mt-4">
             -Bam
           </div>
         </div>
