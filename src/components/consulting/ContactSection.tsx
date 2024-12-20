@@ -12,7 +12,7 @@ export const ContactSection = () => (
     className="print:mb-0 text-center"
     {...fadeIn}
   >
-    <div className="bg-gradient-to-br from-consulting-bg via-purple-50 to-consulting-bg p-8 rounded-2xl shadow-lg border border-consulting-accent/20">
+    <div className="bg-gradient-to-br from-consulting-bg via-purple-50 to-consulting-bg p-8 rounded-2xl shadow-lg border border-consulting-accent/20 max-w-2xl mx-auto">
       <h2 className="text-2xl font-bold mb-4 text-consulting-text">Get in Touch</h2>
       <p className="text-lg mb-4">Ready to transform your business with AI?</p>
       <div className="space-y-2 mb-8">

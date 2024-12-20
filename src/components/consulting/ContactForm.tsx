@@ -25,17 +25,15 @@ export const ContactForm = () => {
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR-ACCESS-KEY", // You'll need to sign up at web3forms.com
+          from: values.email,
           name: values.name,
-          email: values.email,
           message: values.message,
-          subject: "New Contact Form Submission - AI Consulting",
         }),
       });
 
@@ -52,7 +50,7 @@ export const ContactForm = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 print:hidden">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6 print:hidden max-w-md mx-auto">
         <FormField
           control={form.control}
           name="name"
@@ -60,7 +58,7 @@ export const ContactForm = () => {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="Your name" {...field} />
+                <Input placeholder="Your name" {...field} className="max-w-sm" />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -73,7 +71,7 @@ export const ContactForm = () => {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input type="email" placeholder="your.email@example.com" {...field} />
+                <Input type="email" placeholder="your.email@example.com" {...field} className="max-w-sm" />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -86,13 +84,13 @@ export const ContactForm = () => {
             <FormItem>
               <FormLabel>Message</FormLabel>
               <FormControl>
-                <Textarea placeholder="Your message" className="min-h-[120px]" {...field} />
+                <Textarea placeholder="Your message" className="min-h-[120px] max-w-sm" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full">Send Message</Button>
+        <Button type="submit" className="w-full max-w-sm">Send Message</Button>
       </form>
     </Form>
   );
