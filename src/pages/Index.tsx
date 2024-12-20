@@ -37,7 +37,7 @@ const Index = () => {
           </div>
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl print:shadow-none">
             <img
-              src="/photo-1581092795360-fd1ca04f0952"
+              src="/lovable-uploads/00f37ddf-a287-449b-9069-e8abbdd6d169.png"
               alt="Michael Bamberger"
               className="w-full h-full object-cover"
             />
