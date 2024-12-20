@@ -43,18 +43,12 @@ export const HeroSection = () => (
           </p>
           <p className="mb-4">
             Throughout my journey of building AI products and embedding AI into customer-facing workflows, 
-            I've gained <span className="relative inline-block">
-              <span className="absolute inset-0 bg-gradient-to-b from-yellow-200/70 to-yellow-300/70 -rotate-2 transform scale-110"></span>
-              <span className="relative">deep insights into what truly works in AI implementation</span>
-            </span>. My experience spans from 
+            I've gained <span className="bg-gradient-to-r from-yellow-200/70 to-yellow-300/70 -rotate-1 inline-block px-1">deep insights into what truly works in AI implementation</span>. My experience spans from 
             developing AI-powered products to helping organizations transform their operations with AI solutions.
           </p>
           <p className="mb-4">
             What I've learned is that success in AI isn't just about the technology—it's about understanding 
-            your unique business needs and <span className="relative inline-block">
-              <span className="absolute inset-0 bg-gradient-to-b from-purple-200/70 to-purple-300/70 rotate-1 transform scale-110"></span>
-              <span className="relative">implementing solutions that create real, measurable value</span>
-            </span>.
+            your unique business needs and <span className="bg-gradient-to-r from-purple-200/70 to-purple-300/70 rotate-1 inline-block px-1">implementing solutions that create real, measurable value</span>.
           </p>
           <p className="mb-6">
             If you're interested in using AI to enhance your business, let's talk!
