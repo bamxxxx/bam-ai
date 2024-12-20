@@ -4,6 +4,7 @@ import { IntroSection } from "@/components/consulting/IntroSection";
 import { ProfileSection } from "@/components/consulting/ProfileSection";
 import { ServicesSection } from "@/components/consulting/ServicesSection";
 import { ApproachSection } from "@/components/consulting/ApproachSection";
+import { WhyWorkWithMeSection } from "@/components/consulting/WhyWorkWithMeSection";
 import { ClientsSection } from "@/components/consulting/ClientsSection";
 import { ContactSection } from "@/components/consulting/ContactSection";
 
@@ -19,7 +20,10 @@ const Index = () => {
         <IntroSection />
         <ProfileSection />
         <ServicesSection />
-        <ApproachSection />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <ApproachSection />
+          <WhyWorkWithMeSection />
+        </div>
         <ClientsSection />
         <ContactSection />
       </div>
